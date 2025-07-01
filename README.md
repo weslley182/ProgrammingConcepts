@@ -1,1 +1,3 @@
 # DesignPatternsNew
+
+Factory
