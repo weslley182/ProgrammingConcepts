@@ -3,8 +3,11 @@
 This repository contains practical examples and detailed explanations for essential design patterns in software engineering, demonstrated with .NET.
 
 ## 📌 Patterns Covered
-
+Creational
 - [Factory Method](./docs/FactoryReadme.md)
+Behavioral
+- [Strategy Method](./docs/StrategyReadme.md)
+Structural
 - (More to come...)
 
 ## 🚀 Purpose
