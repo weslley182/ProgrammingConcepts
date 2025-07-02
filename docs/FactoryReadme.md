@@ -4,6 +4,10 @@
 
 The Factory Method Pattern defines an interface for creating an object, but lets subclasses decide which class to instantiate. It promotes loose coupling by delegating object creation to subclasses.
 
+## ✨ Objective
+
+Delegate the responsibility of creating objects to another class or method, instead of directly instantiating them using new in client code.
+
 ## 💡 When to Use
 
 - When you don’t know in advance what types of objects your code will need.
