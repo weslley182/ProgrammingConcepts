@@ -5,10 +5,6 @@ This repository contains practical examples and detailed explanations for essent
 ## 📌 Patterns Covered
 
 - [Factory Method](./docs/FactoryReadme.md)
-- [Strategy](./Strategy/README.md)
-- [Singleton](./Singleton/README.md)
-- [Builder](./Builder/README.md)
-- [Observer](./Observer/README.md)
 - (More to come...)
 
 ## 🚀 Purpose
