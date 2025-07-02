@@ -5,8 +5,10 @@ This repository contains practical examples and detailed explanations for essent
 ## 📌 Patterns Covered
 Creational
 - [Factory Method](./docs/FactoryReadme.md)
+
 Behavioral
 - [Strategy Method](./docs/StrategyReadme.md)
+
 Structural
 - (More to come...)
 
