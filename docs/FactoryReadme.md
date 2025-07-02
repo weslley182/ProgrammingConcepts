@@ -27,7 +27,7 @@ This folder contains:
 
 - [Official C# documentation](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/)
 - [Refactoring Guru - Factory Method](https://refactoring.guru/design-patterns/factory-method)
-
+- [GoF Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns)
 ## 🎥 Related Video
 
 - [Factory Pattern Explanation](https://youtu.be/ZCLhDRkBaI0)
