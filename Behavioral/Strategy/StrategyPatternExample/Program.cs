@@ -14,4 +14,4 @@ calculator.SetStrategy(new DivisionStrategy());
 Console.WriteLine(calculator.Compute(15, 3)); // 5
 
 calculator.SetStrategy(new DivisionStrategy());
-Console.WriteLine(calculator.Compute(15, 0)); // Throww
+Console.WriteLine(calculator.Compute(15, 0)); // Error
