@@ -25,3 +25,6 @@ This repository contains practical examples and detailed explanations for essent
 
 ## 📚 References
 - [GoF Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns)
+
+## My Blog
+- https://wesleydevcamp.wordpress.com

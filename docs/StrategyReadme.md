@@ -52,3 +52,6 @@ In this project:
 
 ## 🎥 Related Video
 - [Strategy Pattern Explanation](https://youtu.be/Dd79dttdMKY)
+
+## Blog
+- https://wesleydevcamp.wordpress.com/2025/07/15/strategy-pattern/
