@@ -33,6 +33,6 @@ This folder contains:
 
 - [Factory Pattern Explanation](https://youtu.be/ZCLhDRkBaI0)
 
-## Blog
+## 🌐 Blog
 
 - https://wesleydevcamp.wordpress.com/2025/07/15/factory-method-pattern/
