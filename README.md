@@ -18,13 +18,20 @@ This repository contains practical examples and detailed explanations for essent
 ✅ Offer clear explanations of each pattern  
 ✅ Help developers write scalable, maintainable, and testable code  
 
+## 📚 References
+- [GoF Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns)
+
+# OOP Series
+
+# DDD Series
+
+# SOLID Series
+
 ## 📝 Notes
 
 - Examples are written in **C# / .NET**
 - Each pattern has its own folder with code, explanations, and references
 
-## 📚 References
-- [GoF Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns)
 
 ## 🌐 My Blog
 - https://wesleydevcamp.wordpress.com
