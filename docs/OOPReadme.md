@@ -38,9 +38,3 @@ Demonstrate **Encapsulation**, **Abstraction**, **Inheritance**, and **Polymorph
 
 ### Tests/
 - OrderTests.cs
-
-## 🎥 Related Video
-- [OOP Encapsulation Explanation](https://youtu.be/SflyTIaQBvc)
-
-## 🌐 Blog
-- https://wesleydevcamp.wordpress.com/2025/07/15/strategy-pattern/
