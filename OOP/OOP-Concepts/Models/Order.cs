@@ -1,6 +1,5 @@
 ﻿namespace OOP_Concepts.Models;
 
-// Order.cs
 public class Order
 {
     private readonly List<Product> _items = new();
