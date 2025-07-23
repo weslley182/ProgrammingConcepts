@@ -13,8 +13,17 @@ Demonstrate **Encapsulation**, **Abstraction**, **Inheritance**, and **Polymorph
 - Encapsulation with a protected `Order` class
 - 🎥 [Watch video](https://youtu.be/SflyTIaQBvc) | 📝 [Read blog](https://wesleydevcamp.wordpress.com/2025/07/17/oop-encapsulation/)
 
+### ✅ Module 1 – Abstraction with Interfaces
+
+- Difference between Encapsulation and Abstraction
+- Creating the IPaymentMethod interface
+- Multiple implementations: Credit Card and Cash
+- Injecting abstraction in CheckoutService
+
+- 🎥 [Watch video](https://youtu.be/nqUrCaMggpU) | 📝 [Read blog](https://wesleydevcamp.wordpress.com/2025/07/17/oop-abstraction/)
+
 ### 📦 Upcoming:
-- Abstraction with `IPaymentMethod`
+
 - Inheritance with product hierarchy
 - Polymorphism with flexible discount strategies
 
