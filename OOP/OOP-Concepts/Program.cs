@@ -1,4 +1,5 @@
-﻿using OOP_Concepts.Encapsulation;
+﻿using OOP_Concepts.Abstraction;
+using OOP_Concepts.Encapsulation;
 
 //Encapsulation concept is demonstrated by creating a class that encapsulates the data and behavior related to an order,
 //allowing for better organization and management of the code.
@@ -10,3 +11,7 @@ Console.WriteLine();
 var proceduralSample = new ProceduralSample();
 proceduralSample.Execute();
 
+
+//Abstraction
+var abstractionSample = new AbstractionSample();
+abstractionSample.Execute();

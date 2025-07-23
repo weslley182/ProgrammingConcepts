@@ -1,4 +1,4 @@
-﻿namespace OOP_Concepts.Classes;
+﻿namespace OOP_Concepts.Models;
 
 // Product.cs
 public class Product

@@ -1,4 +1,4 @@
-﻿namespace OOP_Concepts.Classes;
+﻿namespace OOP_Concepts.Models;
 
 // Customer.cs
 public class Customer
