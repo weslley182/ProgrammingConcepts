@@ -22,9 +22,16 @@ Demonstrate **Encapsulation**, **Abstraction**, **Inheritance**, and **Polymorph
 
 - 🎥 [Watch video](https://youtu.be/nqUrCaMggpU) | 📝 [Read blog](https://wesleydevcamp.wordpress.com/2025/07/17/oop-abstraction/)
 
+### ✅ Module 2 – Inheritance with Product Hierarchy
+
+- Understanding when inheritance makes sense
+- Creating a base Product class with virtual behavior
+- Extending it with Beverage and Snack types
+- Demonstrating reuse and method overriding
+- 🎥 [Watch video](https://youtu.be/PLACEHOLDER) | 📝 [Read blog](https://wesleydevcamp.wordpress.com/2025/07/20/oop-inheritance/)
+
 ### 📦 Upcoming:
 
-- Inheritance with product hierarchy
 - Polymorphism with flexible discount strategies
 
 ## 🧱 Structure

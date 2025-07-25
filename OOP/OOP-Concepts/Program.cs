@@ -44,6 +44,10 @@ switch (selectedPillar)
     case OopPillar.Polymorphism:
         Console.WriteLine("=== Polymorphism Example ===");
         new PolymorphismSample().Execute();
+        Console.WriteLine();
+
+        Console.WriteLine("=== Composition Example ===");
+        new CompositionSample().Execute();
         break;
 
     default:

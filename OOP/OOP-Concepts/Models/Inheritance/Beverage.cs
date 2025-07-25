@@ -2,14 +2,15 @@
 
 public class Beverage : NewProduct
 {
-    public bool IsHot { get; }
+    const decimal ColdBeveragePrice = 1.00m;
+    public bool IsCold { get; }
 
-    public Beverage(string name, decimal basePrice, bool isHot)
+    public Beverage(string name, decimal basePrice, bool isCold)
         : base(name, basePrice)
     {
-        IsHot = isHot;
+        IsCold = isCold;
     }
 
-    public override decimal GetFinalPrice() => BasePrice + (IsHot ? 0.50m : 0.30m);
+    public override decimal GetFinalPrice() => BasePrice + (IsCold ? ColdBeveragePrice : 0.00m);
 }
 
