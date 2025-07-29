@@ -36,3 +36,6 @@ This repository contains practical examples and detailed explanations for essent
 
 ## 🌐 My Blog
 - https://wesleydevcamp.wordpress.com
+
+## 🎥 My Youtube
+- https://www.youtube.com/c/WesleyMachado
