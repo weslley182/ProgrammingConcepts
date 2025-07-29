@@ -25,17 +25,26 @@ switch (selectedPillar)
         new EncapsulatedSample().Execute();
         break;
 
-    //Abstraction
+    // Abstraction concept is demonstrated by defining a common interface for payment methods,
+    // allowing the system to interact with different implementations through a consistent contract.
     case OopPillar.Abstraction:
         Console.WriteLine("=== Abstraction Example ===");
         new AbstractionSample().Execute();
         break;
 
+    // Inheritance concept is demonstrated by creating a base Product class and deriving Beverage and Snack from it,
+    // allowing code reuse and enabling specialized behavior through method overriding.
     case OopPillar.Inheritance:
         Console.WriteLine("=== Inheritance Example ===");
         new InheritanceSample().Execute();
+        Console.WriteLine();
+
+        Console.WriteLine("=== Composition Example ===");
+        new CompositionSample().Execute();
         break;
 
+    // Polymorphism concept is demonstrated by applying different promotion strategies through a shared Promotion base class,
+    // enabling dynamic behavior without changing the code that applies the promotion.
     case OopPillar.Polymorphism:
         Console.WriteLine("=== Polymorphism Example ===");
         new PolymorphismSample().Execute();
