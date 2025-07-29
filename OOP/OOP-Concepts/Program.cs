@@ -37,6 +37,10 @@ switch (selectedPillar)
     case OopPillar.Inheritance:
         Console.WriteLine("=== Inheritance Example ===");
         new InheritanceSample().Execute();
+        Console.WriteLine();
+
+        Console.WriteLine("=== Composition Example ===");
+        new CompositionSample().Execute();
         break;
 
     // Polymorphism concept is demonstrated by applying different promotion strategies through a shared Promotion base class,
@@ -44,10 +48,6 @@ switch (selectedPillar)
     case OopPillar.Polymorphism:
         Console.WriteLine("=== Polymorphism Example ===");
         new PolymorphismSample().Execute();
-        Console.WriteLine();
-
-        Console.WriteLine("=== Composition Example ===");
-        new CompositionSample().Execute();
         break;
 
     default:

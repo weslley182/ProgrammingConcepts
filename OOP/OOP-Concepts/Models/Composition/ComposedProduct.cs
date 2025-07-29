@@ -1,6 +1,6 @@
-﻿using OOP_Concepts.Polymorphism.Interface;
+﻿using OOP_Concepts.Models.Inheritance.Interface;
 
-namespace OOP_Concepts.Polymorphism;
+namespace OOP_Concepts.Models.Composition;
 
 public class ComposedProduct
 {

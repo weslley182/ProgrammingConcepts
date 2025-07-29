@@ -1,4 +1,4 @@
-﻿namespace OOP_Concepts.Polymorphism.Interface;
+﻿namespace OOP_Concepts.Models.Inheritance.Interface;
 
 public interface IPriceCalculator
 {

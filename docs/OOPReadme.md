@@ -28,7 +28,7 @@ Demonstrate **Encapsulation**, **Abstraction**, **Inheritance**, and **Polymorph
 - Creating a base Product class with virtual behavior
 - Extending it with Beverage and Snack types
 - Demonstrating reuse and method overriding
-- 🎥 [Watch video](https://youtu.be/PLACEHOLDER) | 📝 [Read blog](https://wesleydevcamp.wordpress.com/2025/07/20/oop-inheritance/)
+- 🎥 [Watch video](https://youtu.be/PLACEHOLDER) | 📝 [Read blog](https://wesleydevcamp.wordpress.com/2025/07/29/oop-inheritance/)
 
 ### 📦 Upcoming:
 

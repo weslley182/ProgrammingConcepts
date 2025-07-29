@@ -1,6 +1,6 @@
-﻿using OOP_Concepts.Models.Inheritance;
+﻿using OOP_Concepts.Models.Composition;
 
-namespace OOP_Concepts.Polymorphism;
+namespace OOP_Concepts.Inheritance;
 
 // Polymorphism and composition are demonstrated by injecting behavior into a product class
 // through a shared IPriceCalculator interface, allowing flexible pricing without inheritance.
