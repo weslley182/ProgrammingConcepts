@@ -30,9 +30,13 @@ Demonstrate **Encapsulation**, **Abstraction**, **Inheritance**, and **Polymorph
 - Demonstrating reuse and method overriding
 - 🎥 [Watch video](https://youtu.be/azh9D0vOF88) | 📝 [Read blog](https://wesleydevcamp.wordpress.com/2025/07/29/oop-inheritance/)
 
-### 📦 Upcoming:
+### ✅ Module 3 – Polymorphism and Strategy Foundations
 
-- Polymorphism with flexible discount strategies
+- Understanding polymorphism: multiple forms through a common contract
+- Implementing polymorphism via inheritance and interface
+- Applying real-world promotions using dynamic behavior
+- How this principle enables the Strategy Pattern
+- 🎥 [Watch video](https://youtu.be/Bhq97ZO0diA) | 📝 [Read blog](https://wesleydevcamp.wordpress.com/2025/07/30/oop-polymorphism/)
 
 ## 🧱 Structure
 ### /Models

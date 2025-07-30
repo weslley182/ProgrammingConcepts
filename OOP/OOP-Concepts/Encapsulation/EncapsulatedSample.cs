@@ -1,4 +1,4 @@
-﻿using OOP_Concepts.Models;
+﻿using OOP_Concepts.Models.General;
 
 namespace OOP_Concepts.Encapsulation;
 

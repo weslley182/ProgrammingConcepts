@@ -1,4 +1,4 @@
-﻿namespace OOP_Concepts.Models;
+﻿namespace OOP_Concepts.Models.General;
 
 public class Order
 {

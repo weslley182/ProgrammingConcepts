@@ -1,5 +1,5 @@
 ﻿using OOP_Concepts.Abstraction.Payments.Interface;
-using OOP_Concepts.Models;
+using OOP_Concepts.Models.General;
 
 namespace OOP_Concepts.Abstraction.Services;
 
