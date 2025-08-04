@@ -39,7 +39,12 @@ public class SRPSample
     private void ExecuteWithSRP(Order order)
     {
         Console.WriteLine("=== SRP Sample ===");
-        var invoiceService = new InvoiceService();
+
+        var invCalculator = new InvoiceCalculator();
+        var repo = new InvoiceRepository();
+        var mail = new EmailService();
+
+        var invoiceService = new InvoiceService(invCalculator, repo, mail);
         invoiceService.GenerateInvoice(order);
     }
 }

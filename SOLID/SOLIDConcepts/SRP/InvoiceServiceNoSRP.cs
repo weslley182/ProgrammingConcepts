@@ -10,7 +10,7 @@ public class InvoiceServiceNoSRP
         Console.WriteLine("Calculating total amount...");
         var total = order.Items.Sum(i => i.Price * i.Quantity);
 
-        // 2. save on Database
+        // 2. Save on Database
         SaveToDatabase(order, total);
 
         // 3. Send e-mail
