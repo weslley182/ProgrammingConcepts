@@ -27,6 +27,7 @@ This repository contains practical examples and detailed explanations for essent
 # DDD Series
 
 # SOLID Series
+- [SOLID Doc](./docs/SOLIDReadme.md)
 
 ## 📝 Notes
 

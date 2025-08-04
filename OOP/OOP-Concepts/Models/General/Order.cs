@@ -2,6 +2,8 @@
 
 public class Order
 {
+    public string CustomerEmail { get; set; }
+
     private readonly List<Product> _items = new();
 
     public IReadOnlyList<Product> Items => _items.AsReadOnly();
