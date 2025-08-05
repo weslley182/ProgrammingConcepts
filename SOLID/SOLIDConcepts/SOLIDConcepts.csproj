@@ -8,11 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="SRP\Interface\" />
+    <ProjectReference Include="..\..\OOP\OOP-Concepts\OOP-Concepts.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\OOP\OOP-Concepts\OOP-Concepts.csproj" />
+    <Folder Include="OCP\Interface\" />
   </ItemGroup>
 
 </Project>

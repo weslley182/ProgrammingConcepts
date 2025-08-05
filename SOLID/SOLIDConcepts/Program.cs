@@ -1,4 +1,5 @@
 ﻿using SOLIDConcepts.Enum;
+using SOLIDConcepts.OCP;
 using SOLIDConcepts.SRP;
 
 
@@ -20,7 +21,7 @@ switch (selectedPrinciple)
     //Objects or entities should be open for extension but closed for modification.
     case SolidPrinciple.OCP:
         Console.WriteLine("=== Open/Closed Principle ===");
-
+        new OCPSample().Execute();
         break;
 
     //Let q(x) be a property provable about objects of x of type T.Then q(y) should be provable for objects y of type S where S is a subtype of T.
