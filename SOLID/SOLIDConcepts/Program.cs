@@ -3,7 +3,7 @@ using SOLIDConcepts.OCP;
 using SOLIDConcepts.SRP;
 
 
-Console.WriteLine("Choose SOLID Principle: (0) S, (1) O, (2) L, (3) I, (4) D");
+Console.WriteLine("Choose SOLID Principle: (0) SRP, (1) OCP, (2) LSP, (3) ISP, (4) DIP");
 if (!Enum.TryParse<SolidPrinciple>(Console.ReadLine(), out var selectedPrinciple))
 {
     Console.WriteLine("Invalid selection.");
@@ -44,6 +44,6 @@ switch (selectedPrinciple)
         break;
 
     default:
-        Console.WriteLine("Pillar not implemented.");
+        Console.WriteLine("Principle not implemented.");
         break;
 }

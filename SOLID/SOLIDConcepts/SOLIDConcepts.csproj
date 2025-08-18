@@ -11,8 +11,4 @@
     <ProjectReference Include="..\..\OOP\OOP-Concepts\OOP-Concepts.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="OCP\Interface\" />
-  </ItemGroup>
-
 </Project>
