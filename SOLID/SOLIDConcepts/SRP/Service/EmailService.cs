@@ -1,4 +1,4 @@
-﻿namespace SOLIDConcepts.SRP;
+﻿namespace SOLIDConcepts.SRP.Service;
 
 public class EmailService
 {

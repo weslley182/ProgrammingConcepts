@@ -1,6 +1,6 @@
 ﻿using OOP_Concepts.Models.General;
 
-namespace SOLIDConcepts.SRP;
+namespace SOLIDConcepts.SRP.Service;
 
 public class InvoiceServiceNoSRP
 {
