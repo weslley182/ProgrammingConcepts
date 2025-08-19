@@ -1,4 +1,5 @@
 ﻿using SOLIDConcepts.Enum;
+using SOLIDConcepts.LSP;
 using SOLIDConcepts.OCP;
 using SOLIDConcepts.SRP;
 
@@ -28,6 +29,7 @@ switch (selectedPrinciple)
     //This means that every subclass or derived class should be substitutable for their base or parent class.
     case SolidPrinciple.LSP:
         Console.WriteLine("=== Liskov Substitution Principle ===");
+        new LSPSample().Execute();
 
         break;
 
