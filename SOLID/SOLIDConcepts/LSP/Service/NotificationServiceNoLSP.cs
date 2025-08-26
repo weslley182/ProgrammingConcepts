@@ -13,6 +13,7 @@ public class NotificationServiceNoLSP
         else
         {
             Console.WriteLine("Nothing happens.");
+            Console.WriteLine("It could be an exception.");
         }
     }
 

@@ -4,5 +4,9 @@ namespace SOLIDConcepts.LSP.Model;
 
 public class SmsOnlyCustomer : Customer
 {
-    public string PhoneNumber { get; set; }
+    private readonly string _phone;
+    public SmsOnlyCustomer(string phone)
+    {
+        _phone = phone;
+    }
 }
