@@ -64,8 +64,28 @@ This solution may look similar to the Strategy Pattern — and that’s intentio
 
 You can use patterns like Strategy, Factory, and Decorator to achieve OCP — but the focus is on making your code resilient to change by avoiding the need to modify working logic.
 
+---
 
+## 🟨 L: Liskov Substitution Principle (LSP)
+
+> “Objects of a superclass should be replaceable with objects of its subclasses without affecting the correctness of the program.”
+
+The Liskov Substitution Principle (LSP) ensures that subclasses remain true to the behavior expected by their base class or interface. If substituting a subclass breaks functionality, the design is flawed.
+
+---
+
+### 🔴 Violates LSP
+
+In this example, we have a base class `Customer` that exposes an `Email` property:
+
+```csharp
+public class Customer
+{
+    public virtual string Email { get; set; }
+}
+```
 
 🎥 Related Video
 - [Watch video S](https://youtu.be/dPRt6Y2HzAs)
 - [Watch video O](https://youtu.be/1igDwUZkWSE)
+- [Watch video L](https://youtu.be/1igDwUZkWSE)

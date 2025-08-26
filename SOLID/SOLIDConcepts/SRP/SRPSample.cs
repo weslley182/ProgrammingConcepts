@@ -16,7 +16,7 @@ public class SRPSample
 
     private static Order CreateOrder()
     {
-        Console.WriteLine("=== Single Responsability ===");
+        Console.WriteLine("=== Single Responsability Principle===");
 
         var order = new Order
         {

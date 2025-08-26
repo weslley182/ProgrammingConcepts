@@ -3,9 +3,14 @@
 public class Customer
 {
     public string Name { get; }
+    public string Email { get; set; }
 
     public Customer(string name)
     {
         Name = name;
+    }
+    public Customer()
+    {
+
     }
 }
