@@ -38,10 +38,11 @@ public class LSPSample
         {
             new EmailCustomer("wesley@email.com"),
             new SmsCustomer("+55 11 123-456-7890"),
-            new WhatsUpCustomer("+55 11 123-456-6666"),
+            new WhatsuppCustomer("+55 11 123-456-6666")
         };
 
         var notify = new NotificationService();
         custList.ForEach(customer => notify.Send(customer));
+
     }
 }
