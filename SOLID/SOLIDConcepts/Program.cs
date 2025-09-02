@@ -1,4 +1,5 @@
 ﻿using SOLIDConcepts.Enum;
+using SOLIDConcepts.ISP;
 using SOLIDConcepts.LSP;
 using SOLIDConcepts.OCP;
 using SOLIDConcepts.SRP;
@@ -36,6 +37,7 @@ switch (selectedPrinciple)
     //A client should never be forced to implement an interface that it doesn’t use, or clients shouldn’t be forced to depend on methods they do not use
     case SolidPrinciple.ISP:
         Console.WriteLine("=== Interface Segregation Principle ===");
+        new ISPSample().Execute();
 
         break;
     //Entities must depend on abstractions, not on concretions.

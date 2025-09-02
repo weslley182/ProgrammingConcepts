@@ -1,4 +1,4 @@
-# 🧱 SOLID Principles in C# - Clean Architecture with Real Examples
+# 🛡 SOLID Principles in C# - Clean Architecture with Real Examples
 
 This repository showcases **practical and educational examples** of each principle in the **SOLID** design principles, implemented in **C#** using real-world inspired scenarios.
 
@@ -10,7 +10,7 @@ Whether you're learning SOLID for the first time or brushing up for professional
 
 ---
 
-## 🔤 What is SOLID?
+## 🌤 What is SOLID?
 
 **SOLID** is an acronym representing five key design principles in object-oriented programming, introduced by Robert C. Martin (Uncle Bob). Together, they help you write code that is:
 
@@ -22,7 +22,7 @@ Whether you're learning SOLID for the first time or brushing up for professional
 
 ---
 
-## 🟥 S — Single Responsibility Principle (SRP)
+## 🔴 S — Single Responsibility Principle (SRP)
 
 > **"A class should have only one reason to change."**
 
@@ -60,7 +60,7 @@ Split responsibilities into:
 
 ---
 
-## 🟦 O — Open/Closed Principle (OCP)
+## 🔵 O — Open/Closed Principle (OCP)
 
 > **"Software entities should be open for extension, but closed for modification."**
 
@@ -100,7 +100,7 @@ This design resembles the Strategy Pattern — and that’s intentional:
 
 ---
 
-## 🟨 L — Liskov Substitution Principle (LSP)
+## 🔺 L — Liskov Substitution Principle (LSP)
 
 > **"Subtypes must be substitutable for their base types without breaking behavior."**
 
@@ -134,6 +134,73 @@ Each implementation handles its notification logic safely.
 
 ---
 
+## 🟩 I — Interface Segregation Principle (ISP)
+
+> **"Clients should not be forced to depend on interfaces they do not use."**
+
+### ❌ Problem
+
+Large interfaces force implementing classes to support methods that don't apply to them.
+
+### 💡 Example: `IMultiFunctionDevice`
+
+```csharp
+public interface IMultiFunctionDevice
+{
+    void Print();
+    void Scan();
+    void Fax();
+}
+
+public class BasicPrinter : IMultiFunctionDevice
+{
+    public void Print() => Console.WriteLine("🖨 Printing...");
+    public void Scan() => throw new NotSupportedException();
+    public void Fax() => throw new NotSupportedException();
+}
+```
+
+The `BasicPrinter` is forced to implement features it doesn't support.
+
+### ✅ Refactored with ISP
+
+Split into small, focused interfaces:
+
+```csharp
+public interface IPrinter
+{
+    void Print();
+}
+
+public interface IScanner
+{
+    void Scan();
+}
+
+public interface IFax
+{
+    void Fax();
+}
+```
+
+Now classes implement only what they need:
+
+```csharp
+public class SimplePrinter : IPrinter
+{
+    public void Print() => Console.WriteLine("🖨 Printing...");
+}
+
+public class OfficePrinter : IPrinter, IScanner, IFax
+{
+    public void Print() => Console.WriteLine("🖨 Printing...");
+    public void Scan() => Console.WriteLine("📠 Scanning...");
+    public void Fax() => Console.WriteLine("📠 Faxing...");
+}
+```
+
+---
+
 ## ▶️ Watch the Videos
 
 Each principle is also explained with hands-on refactoring in video:
@@ -144,8 +211,7 @@ Each principle is also explained with hands-on refactoring in video:
 
 Coming soon:
 
-* 🟩 Interface Segregation Principle
-* 🟪 Dependency Inversion Principle
+* 🔺 Dependency Inversion Principle
 
 ---
 
@@ -163,3 +229,7 @@ All examples here use **Microsoft stack** technologies — and align with best p
 > “Good architecture maximizes the number of decisions not made.”
 
 ---
+
+## 🏷️ Tags
+
+`#CSharp` `#DotNet` `#SOLID` `#CleanCode` `#SoftwareDesign` `#MicrosoftDeveloper`
