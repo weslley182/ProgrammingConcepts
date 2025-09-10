@@ -1,4 +1,5 @@
-﻿using SOLIDConcepts.Enum;
+﻿using SOLIDConcepts.DIP;
+using SOLIDConcepts.Enum;
 using SOLIDConcepts.ISP;
 using SOLIDConcepts.LSP;
 using SOLIDConcepts.OCP;
@@ -44,6 +45,7 @@ switch (selectedPrinciple)
     //It states that the high-level module must not depend on the low-level module, but they should depend on abstractions.
     case SolidPrinciple.DIP:
         Console.WriteLine("=== Dependency Inversion Principle ===");
+        new DIPSample().Execute();
 
         break;
 
