@@ -9,9 +9,11 @@ This repository contains practical examples and detailed explanations for essent
 ### Behavioral
 - [Strategy Method](./docs/StrategyReadme.md)
 - [Observer Method](./docs/ObserverReadme.md)
-- [Decorator Method](./docs/DecoratorReadme.md)
 
 ### Structural
+- [Decorator Method](./docs/DecoratorReadme.md)
+- [Adapter Method](./docs/AdapterReadme.md)
+
 - (More to come...)
 
 ## 🚀 Purpose
